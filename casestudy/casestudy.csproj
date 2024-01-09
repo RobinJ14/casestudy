@@ -55,9 +55,6 @@
     <Compile Include="Entity\Order_items.cs" />
     <Compile Include="Entity\Product.cs" />
     <Compile Include="EcomApp.cs" />
-    <Compile Include="MyException\CustomerNotFoundException.cs" />
-    <Compile Include="MyException\OrderNotFoundException.cs" />
-    <Compile Include="MyException\ProductNotFoundException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\DBconnection.cs" />
     <Compile Include="Util\Propertyutil.cs" />
