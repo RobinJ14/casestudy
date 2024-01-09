@@ -17,9 +17,9 @@ namespace casestudy.DAO
         Boolean removefromcart(Customer customer,Product product);
         List<Product> getallfromcart(Customer customer);
 
-        //Boolean placeorder(Customer customer, List<Product> product ,List<int> quantity, string shippingaddress);
+        Boolean placeorder(Customer customer, List<Tuple< Product,int>> list1, string shippingaddress);
 
-        //List<Product> getordersbycustomer(Customer customerid);
+        List<Tuple< Product,int>> getordersbycustomer(Customer customerid);
 
 
 
