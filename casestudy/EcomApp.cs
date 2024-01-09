@@ -73,7 +73,7 @@ namespace casestudy
                         break;
 
                     default:
-                        Console.WriteLine("Invalid input");
+                        Console.WriteLine("Invalid input.....");
                         break;
                 }
 
